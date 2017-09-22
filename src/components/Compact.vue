@@ -2,7 +2,7 @@
   <div class="vc-compact">
     <ul class="vc-compact-colors">
       <li class="vc-compact-color-item" v-for="c in palette" :key="c"
-        @click.prevent="handlerClick(c)"
+        @click.prevent.stop="handlerClick(c)"
         :class="{'vc-compact-color-item--white': c === '#FFFFFF' }"
         :style="{background: c}">
         <div class="vc-compact-dot" v-show="c === pick"></div>
