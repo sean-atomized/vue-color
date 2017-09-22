@@ -57,6 +57,7 @@ export default {
 
 <style>
 .vc-compact {
+  position: absolute;
   padding-top: 5px;
   padding-left: 5px;
   width: 240px;
